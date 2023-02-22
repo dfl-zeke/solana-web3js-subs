@@ -15,8 +15,8 @@ export const startListenersForAllNfts = async (
     onTxDetect: (account: KeyedAccountInfo, mintAddress: string) => void,
 ) => {
     for (let i = 0; i < MINT_LIST.length; i++) {
-        if (i % 50 === 0) {
-            await sleep(600);
+        if (i % 10 === 0) {
+            await sleep(1000);
             console.log('index', i);
         }
         subscribeNft(MINT_LIST[i], onTxDetect);
