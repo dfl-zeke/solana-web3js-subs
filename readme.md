@@ -5,8 +5,9 @@ This repository contains a reproduction of an infinite recursion bug caused by w
 ## Steps to reproduce
 1. Clone the repository to your local machine.
 2. Run `yarn install` to install dependencies.
-3. Run `yarn start` to start the reproduction.
-4. Observe the infinite recursion in the console.
+3. Run `yarn build` to build the program.
+4. Run `yarn start` to start the reproduction.
+5. Observe the infinite recursion in the console.
 
 Node version: v18.14.0
 
